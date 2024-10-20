@@ -261,6 +261,13 @@ modules.commands = (function (settings, helpers) {
       group: groups.navigation
     },
     {
+      id: 'openLinkInNewBackgroundTab|newTabInBackground',
+      handler: (data) => ((data.element.linkHref) ? commandOpenLinkInNewBackgroundTab : commandNewTabInBackground)(data),
+      label: browser.i18n.getMessage('commandOpenLinkInNewBackgroundTab|newTabInBackground'),
+      tooltip: browser.i18n.getMessage('commandOpenLinkInNewBackgroundTab|newTabInBackgroundTooltip'),
+      group: groups.hybrid
+    },
+    {
       id: 'openLinkInNewForegroundTab',
       handler: commandOpenLinkInNewForegroundTab,
       label: browser.i18n.getMessage('commandOpenLinkInNewForegroundTab'),

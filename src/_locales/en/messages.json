@@ -865,6 +865,12 @@
   "commandHistoryBackOrCloseTabTooltip": {
     "message": "Close the current tab if there is no history to go back."
   },
+  "commandOpenLinkInNewBackgroundTab|newTabInBackground": {
+    "message": "Open Link in New Background Tab or New Tab in Background"
+  },
+  "commandOpenLinkInNewBackgroundTab|newTabInBackgroundTooltip": {
+    "message": "When the gesture begins over a link, open the link in a new background tab. Otherwise open a new tab in background."
+  },
   "commandOpenLinkInNewForegroundTab|newTab": {
     "message": "Open Link in New Foreground Tab or New Tab"
   },
